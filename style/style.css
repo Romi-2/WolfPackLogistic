@@ -3120,26 +3120,22 @@ section {
     background-size: cover;
     background-position: center;
   }
-  
   .get-a-quote .php-email-form {
     background: #f3f6fc;
     padding: 40px;
     height: 100%;
   }
-  
   @media (max-width: 575px) {
     .get-a-quote .php-email-form {
       padding: 20px;
     }
   }
-  
   .get-a-quote .php-email-form h3 {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
-  
   .get-a-quote .php-email-form h4 {
     font-size: 14px;
     font-weight: 700;
@@ -3147,12 +3143,10 @@ section {
     letter-spacing: 1px;
     margin: 20px 0 0 0;
   }
-  
   .get-a-quote .php-email-form p {
     font-size: 14px;
     margin-bottom: 20px;
   }
-  
   .get-a-quote .php-email-form .error-message {
     display: none;
     color: #fff;
@@ -3162,7 +3156,6 @@ section {
     margin-bottom: 24px;
     font-weight: 600;
   }
-  
   .get-a-quote .php-email-form .sent-message {
     display: none;
     color: #fff;
@@ -3172,7 +3165,6 @@ section {
     margin-bottom: 24px;
     font-weight: 600;
   }
-  
   .get-a-quote .php-email-form .loading {
     display: none;
     background: #fff;
@@ -3180,7 +3172,6 @@ section {
     padding: 15px;
     margin-bottom: 24px;
   }
-  
   .get-a-quote .php-email-form .loading:before {
     content: "";
     display: inline-block;
@@ -3192,7 +3183,6 @@ section {
     border-top-color: #fff;
     animation: animate-loading 1s linear infinite;
   }
-  
   .get-a-quote .php-email-form input,
   .get-a-quote .php-email-form textarea {
     border-radius: 0;
@@ -3200,20 +3190,16 @@ section {
     font-size: 14px;
     border-radius: 0;
   }
-  
   .get-a-quote .php-email-form input:focus,
   .get-a-quote .php-email-form textarea:focus {
     border-color: var(--color-primary);
   }
-  
   .get-a-quote .php-email-form input {
     padding: 12px 15px;
   }
-  
   .get-a-quote .php-email-form textarea {
     padding: 12px 15px;
   }
-  
   .get-a-quote .php-email-form button[type="submit"] {
     background: var(--color-primary);
     border: 0;
@@ -3222,7 +3208,6 @@ section {
     transition: 0.4s;
     border-radius: 4px;
   }
-  
   .get-a-quote .php-email-form button[type="submit"]:hover {
     background: rgba(13, 66, 255, 0.8);
   }
