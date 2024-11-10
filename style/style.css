@@ -221,18 +221,14 @@ section {
       color: #fff;
     }
     .navbar .active {
-      color: #fff; /* Text color */
-      background: black; /* Background color when active */
+      color: #fff;
+      background: black;
     }
-  
-    /* Ensure that hover state doesn’t override active styling */
     .navbar .active:hover,
     .navbar .active:focus:hover {
       color: #fff;
       background: black;
     }
-  
-    /* Custom styling for 'get-a-quote' button */
     .navbar .get-a-quote,
     .navbar .get-a-quote:focus {
       background: var(--color-primary);
@@ -3850,36 +3846,24 @@ section {
     padding-bottom: 20px;
     border-bottom: 1px solid #eee;
   }
-  
   .portfolio-details .portfolio-info ul {
-    list-style: none;
-    padding: 0;
     font-size: 15px;
   }
-  
   .portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
   }
-  
   .portfolio-details .portfolio-description {
     padding-top: 30px;
   }
-  
   .portfolio-details .portfolio-description h2 {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 20px;
   }
-  
-  .portfolio-details .portfolio-description p {
-    padding: 0;
-  }
-  
   .section-title {
     text-align: center;
     padding-bottom: 30px;
   }
-  
   .section-title h2 {
     font-size: 32px;
     font-weight: 600;
@@ -3887,9 +3871,7 @@ section {
     padding-bottom: 20px;
     position: relative;
   }
-  
   .section-title h2::before {
-    content: "";
     position: absolute;
     display: block;
     width: 120px;
@@ -3898,35 +3880,22 @@ section {
     bottom: 1px;
     left: calc(50% - 60px);
   }
-  
   .section-title h2::after {
-    content: "";
     position: absolute;
     display: block;
     width: 40px;
     height: 3px;
     background: #1875e1;
-    bottom: 0;
     left: calc(50% - 20px);
-  }
-  
-  .section-title p {
-    margin-bottom: 0;
   }
   .logo-container {
     display: flex;
     align-items: center; /* Center alignment vertically */
   }
-  
   .logo {
     flex: 0 0 auto; /* Flexible width based on content */
     margin: 0 5px; /* Adjust the spacing between logos as needed */
   }
-  
   .logo img {
     max-width: 22%;
   }
-  
-  
-  
-  
